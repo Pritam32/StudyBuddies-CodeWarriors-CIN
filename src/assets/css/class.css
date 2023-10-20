@@ -1,0 +1,105 @@
+
+
+
+.main1{
+    margin-top: 40px;
+    background-color: #2980b9;
+  }
+  .row{
+    
+    margin-top: 20px;
+    padding: 20px;
+    max-width: auto;
+    position: relative;
+  }
+  .card{
+    
+    margin-top: 20px;
+    width:100%;
+  
+  }
+ 
+  .welcome{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .create-form{
+    width:30%;
+    position: absolute;
+    z-index: 2;
+    display: none;
+    top:15%;
+    background-color: rgb(190, 190, 244);
+  }
+  .card-body{
+    background-color: azure;
+    padding: 0;
+  }
+  .color{
+    background-color: red;
+    height:80px;
+    margin-top:0;
+    border-radius: 7px;
+    margin: 5px;
+  }
+  .content{
+    padding:10px;
+  }
+  .meet{
+    width: 100%;
+    border-radius: 7px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border: 0;
+  }
+  h1,
+  p {
+    font-family: Lato;
+  }
+  
+  
+  
+  img {
+    width: 300px;
+    margin: 10px;
+  }
+  /* Styling the button */
+  button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+    margin-top: 10px; 
+  }
+  
+  /* Adding hover effect */
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  
+  
+  @media screen and (max-width:912px){
+    .create-form{
+        width: 100%;
+    }
+    
+  }
+  
+    
+  
+  
+  .hidden {
+    display: none;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
